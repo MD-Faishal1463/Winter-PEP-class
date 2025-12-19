@@ -1,1 +1,212 @@
+OPERATORS (WITH IMPACTFUL ANSWERS)
+1️⃣ Difference between = and ==
 
+Smart Answer:
+“= is an assignment operator used to store a value in a variable, while == is a comparison operator that checks whether two values are equal. In interviews, I remember it as assign vs compare.”
+
+📌 Asked in: TCS, Wipro
+
+2️⃣ Difference between == and === (JavaScript)
+
+Smart Answer:
+“== compares only values, whereas === compares both value and data type. In professional coding, we prefer === to avoid unexpected type conversion bugs.”
+
+📌 Asked in: Accenture, Amazon
+
+3️⃣ Pre-increment vs Post-increment
+
+Smart Answer:
+“In pre-increment (++i), the value is increased first and then used. In post-increment (i++), the value is used first and then increased. This difference matters a lot inside expressions.”
+
+📌 Asked in: Capgemini, Cognizant
+
+4️⃣ Operator precedence
+
+Smart Answer:
+“Operator precedence decides which operation is executed first in an expression. If precedence is unclear, I always use parentheses to improve readability and avoid logical errors.”
+
+📌 Asked in: Infosys, IBM
+
+5️⃣ Short-circuit evaluation
+
+Smart Answer:
+“In logical operators like && and ||, evaluation stops as soon as the result is known. This improves performance and also prevents runtime errors.”
+
+📌 Asked in: IBM, Accenture
+
+6️⃣ Ternary operator vs if-else
+
+Smart Answer:
+“The ternary operator is best for simple, single-condition decisions because it makes the code concise. For complex logic, if-else is more readable.”
+
+📌 Asked in: Infosys, Capgemini
+
+7️⃣ Logical vs Bitwise operators
+
+Smart Answer:
+“Logical operators work on boolean conditions, while bitwise operators work on binary bits. Bitwise operators are mainly used in low-level and performance-critical applications.”
+
+📌 Asked in: TCS, Wipro
+
+8️⃣ Bitwise operator usage
+
+Smart Answer:
+“Bitwise operators are used in areas like encryption, compression, and embedded systems where performance and memory efficiency matter.”
+
+📌 Asked in: Cognizant, IBM
+
+9️⃣ Implicit vs Explicit type casting
+
+Smart Answer:
+“Implicit casting is done automatically by the compiler, while explicit casting is done manually by the programmer when data loss is possible.”
+
+📌 Asked in: Infosys, Accenture
+
+🔟 Arithmetic operators on characters
+
+Smart Answer:
+“Yes, because characters are stored as ASCII values. Performing arithmetic operations actually works on those numeric values.”
+
+📌 Asked in: TCS, Wipro
+
+🔹 CONTROL STRUCTURES
+1️⃣ What are control structures?
+
+Smart Answer:
+“Control structures define the flow of execution in a program. They decide what runs, when it runs, and how many times it runs.”
+
+📌 Asked in: TCS, Infosys
+
+2️⃣ Types of control structures
+
+Smart Answer:
+“There are three main types: sequential, decision, and looping. Together, they help design logical and efficient programs.”
+
+📌 Asked in: Wipro, Capgemini
+
+3️⃣ Sequential vs Decision control
+
+Smart Answer:
+“Sequential control executes code line by line, while decision control chooses different paths based on conditions.”
+
+📌 Asked in: Infosys, Accenture
+
+4️⃣ Decision vs Looping control
+
+Smart Answer:
+“Decision control selects a path once, whereas looping control repeats a block until a condition is met.”
+
+📌 Asked in: Cognizant, IBM
+
+5️⃣ Why goto is avoided?
+
+Smart Answer:
+“goto makes code hard to read and maintain. Modern programming focuses on structured and readable flow control.”
+
+📌 Asked in: Infosys, IBM
+
+6️⃣ Role of control structures
+
+Smart Answer:
+“They make programs flexible, readable, and efficient by controlling execution flow logically.”
+
+📌 Asked in: TCS, Wipro
+
+7️⃣ Nested control structures
+
+Smart Answer:
+“When one control structure is placed inside another, it’s called nesting. It’s useful but should be limited for readability.”
+
+📌 Asked in: Capgemini, Accenture
+
+8️⃣ break, continue, return
+
+Smart Answer:
+“break exits a loop, continue skips the current iteration, and return exits a function.”
+
+📌 Asked in: TCS, Capgemini
+
+9️⃣ Exception handling as control
+
+Smart Answer:
+“Exception handling controls abnormal flow and prevents program crashes.”
+
+📌 Asked in: IBM, Cognizant
+
+🔟 Readability improvement
+
+Smart Answer:
+“Using proper control structures improves code readability and reduces maintenance cost.”
+
+📌 Asked in: Infosys, Accenture
+
+🔹 LOOPS (HIGH-IMPACT ANSWERS)
+1️⃣ for vs while vs do-while
+
+Smart Answer:
+“for is best when iterations are known, while when conditions matter, and do-while when execution is required at least once.”
+
+📌 Asked in: TCS, Infosys, Wipro
+
+2️⃣ Entry vs Exit controlled
+
+Smart Answer:
+“Entry-controlled loops check conditions before execution, while exit-controlled loops check after executing once.”
+
+📌 Asked in: Accenture, Cognizant
+
+3️⃣ Infinite loop
+
+Smart Answer:
+“An infinite loop occurs when the condition never becomes false, often due to logical errors.”
+
+📌 Asked in: TCS, Wipro
+
+4️⃣ break & continue in loops
+
+Smart Answer:
+“They give better control inside loops—break stops the loop, continue skips iterations.”
+
+📌 Asked in: Infosys, IBM
+
+5️⃣ Nested loops & complexity
+
+Smart Answer:
+“Nested loops increase time complexity significantly, so they should be optimized carefully.”
+
+📌 Asked in: Amazon, Accenture
+
+6️⃣ Loop vs Recursion
+
+Smart Answer:
+“Loops use iteration, recursion uses function calls. Loops are generally more memory-efficient.”
+
+📌 Asked in: Cognizant, IBM
+
+7️⃣ For-each vs for loop
+
+Smart Answer:
+“For-each is simpler and safer when accessing all elements, while for gives more control.”
+
+📌 Asked in: Capgemini, Accenture
+
+8️⃣ Common loop errors
+
+Smart Answer:
+“Wrong conditions and missing updates are common mistakes leading to infinite loops.”
+
+📌 Asked in: TCS, Wipro
+
+9️⃣ Best loop when iterations unknown
+
+Smart Answer:
+“When iterations are unknown, while loop is preferred.”
+
+📌 Asked in: Infosys, Cognizant
+
+🔟 do-while usage
+
+Smart Answer:
+“do-while is useful when the loop must execute at least once, like menu-driven programs.”
+
+📌 Asked in: Capgemini, Infosys
